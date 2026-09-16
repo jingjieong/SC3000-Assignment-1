@@ -1,0 +1,30 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Jupyter-generated files
+.ipynb_checkpoints/
+
+# Local configuration, logs, and experiment tracking
+.env
+*.log
+wandb/
+
+# Large/generated model checkpoints
+NanoGPT-Math/gpt.pt
+NanoGPT-Math/sft/gpt.pt
+NanoGPT-Math/dpo/dpo.pt
+*.zip
+
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Preserved upstream Git metadata (not part of this repository)
+.upstream-git-backup/
